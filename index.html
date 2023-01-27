@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This is the project that demonstrates the learners understanding of bootstrap css framwork as using it to create a website">
+    <title>Portfolio with Boostrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <link rel="preload" href="./assets/css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="./assets/css/styles.css">
+    </noscript>
+        <nav id="scrollspy-portfolio" class="navbar sticky-top navbar-expand-md navbar-light bg-white">
+            <div class="container-lg">
+                <a class="navbar-brand" href="#">My Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-me">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-me">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <main data-bs-spy="scroll" data-bs-target="#scrollspy-portfolio" data-bs-offset="0"
+        tabindex="0">
+        <section id="works">
+            <div id="portfolio" class="portfolio-background">
+                <div class="container col-xxl-8 px-4 py-5">
+                    <div class="row flex-lg-row align-items-center g-5 py-5 mt-5">
+                        <div class="col-lg-8 pt-5">
+                            <h1 class="lh-2 mb-3">I'm Esther <span class="d-block">Glad to see you!</span></h1>
+                            <p class="lead">I'm a software developer! I can help you build a product, feature or website
+                                Look
+                                through some of my work and
+                                experience! If you like what you see and have a project you need coded, don't hestiate
+                                to
+                                contact me.</p>
+                            <h2>LET'S CONNECT</h2>
+                            <ul class="d-grid gap-2 d-flex justify-content-start list-inline">
+                                <li class="list-inline-item"><a href="#"><img src="./assets/img/logos/twitter.png"
+                                            alt="twitter" /></a></li>
+                                <li class="list-inline-item"><a href="#"><img src="./assets/img/logos/linkedin.png"
+                                            alt="linkedin" /></a></li>
+                                <li class="list-inline-item"><a href="#"><img src="./assets/img/logos/medium.png"
+                                            alt="Medium" /></a></li>
+                                <li class="list-inline-item"><a href="#"><img src="./assets/img/logos/github.png"
+                                            alt="Github" /></a></li>
+                                <li class="list-inline-item"><a href="#"><img src="./assets/img/logos/angies.png"
+                                            alt="Angies" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-md col-xxl-8 px-4 py-5">
+                <div class="card d-flex flex-column flex-md-row p-3 mb-5">
+                    <div class="col-md-6">
+                        <img src="./assets/img/works/portfolio-1.svg" class="card-img-top" alt="Tonic">
+                    </div>
+                    <div class="card-body col-md-6">
+                        <h5 class="card-title">Tonic</h5>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">Canopy</li>
+                            <li class="list-inline-item">Backend Dev</li>
+                            <li class="list-inline-item">2005</li>
+                        </ul>
+                        <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups
+                            required.</p>
+                        <div class="mb-3">
+                            <span class="badge rounded-pill bg-light">html</span>
+                            <span class="badge rounded-pill bg-light">css</span>
+                            <span class="badge rounded-pill bg-light">Javascript</span>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary btn-lg" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">See Project</a>
+                    </div>
+                    <div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-xl">
+                            <div class="modal-content rounded">
+                                <div class="modal-header">
+                                    <div class="card-body col-md-6">
+                                        <div class="d-flex">
+                                            <h5 class="card-title">Tonic</h5><button type="button" class="btn-close"
+                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">Canopy</li>
+                                            <li class="list-inline-item">Backend Dev</li>
+                                            <li class="list-inline-item">2005</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="col-md-12">
+                                        <img src="./assets/img/works/portfolio-1.svg" class="card-img-top" alt="Tonic">
+                                    </div>
+                                    <div class="row">
+                                        <div class="card-body col-md-8">
+                                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and
+                                                typesetting industry. Lorem Ipsum has been the industry's standard
+                                                dummy text ever since the 1500s, when an unknown printer took a galley
+                                                of
+                                                type
+                                                and scrambled it 1960s with the
+                                                releaLorem Ipsum is simply dummy text of the printing and typesetting
+                                                industry.
+                                                Lorem Ipsum has been the industry's
+                                                standard dummy text ever since the 1500s, when an unknown printer took a
+                                                galley
+                                                of type and scrambled it 1960s with the
+                                                releorem Ipsum is simply dummy text of the printing and typesetting
+                                                industry.
+                                                Lorem Ipsum han printer took a galley of
+                                                type and scrambled it 1960s with the releawn printer took a galley of
+                                                type
+                                                and
+                                                scrambled it 1960s with the releaLorem
+                                                Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Lorem
+                                                Ipsum
+                                                has been the industry's standard dummy
+                                                text ever since the 1500s, when an unknown printer took a galley of type
+                                                and
+                                                scrambled it 1960s with the relea</p>
+                                        </div>
+                                        <div class="card-body col-md-4">
+                                            <div class="mb-3">
+                                                <span class="badge rounded-pill bg-light">html</span>
+                                                <span class="badge rounded-pill bg-light">css</span>
+                                                <span class="badge rounded-pill bg-light">Javascript</span>
+                                            </div>
+                                            <div class="d-md-flex">
+                                                <a href="#" class="btn btn-outline-primary me-3 mb-3"
+                                                    data-bs-toggle="modal" data-bs-target="#staticBackdrop">See
+                                                    Live <img src="./assets/img/logos/Icon-Export.svg" width="24"
+                                                        height="24" alt="Live Demo" /></a>
+                                                <a href="#" class="btn btn-outline-primary mb-3" data-bs-toggle="modal"
+                                                    data-bs-target="#staticBackdrop">See
+                                                    Source <img src="./assets/img/logos/Icon-GitHub.png" alt="GH Source"
+                                                        width="24" height="24" /></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card d-flex flex-column flex-md-row-reverse p-3 mb-5">
+                    <div class="col-md-6">
+                        <img src="./assets/img/works/portfolio-2.svg" class="card-img-top" alt="Canopy">
+                    </div>
+                    <div class="card-body col-md-6">
+                        <h5 class="card-title">Tonic</h5>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">Canopy</li>
+                            <li class="list-inline-item">Backend Dev</li>
+                            <li class="list-inline-item">2005</li>
+                        </ul>
+                        <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups
+                            required.</p>
+                        <div class="mb-3">
+                            <span class="badge rounded-pill bg-light">html</span>
+                            <span class="badge rounded-pill bg-light">css</span>
+                            <span class="badge rounded-pill bg-light">Javascript</span>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary btn-lg" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop2">See Project</a>
+                    </div>
+                    <div class="modal fade" id="staticBackdrop2" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-xl">
+                            <div class="modal-content rounded">
+                                <div class="modal-header">
+                                    <div class="card-body col-md-6">
+                                        <div class="d-flex">
+                                            <h5 class="card-title">Tonic</h5><button type="button" class="btn-close"
+                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">Canopy</li>
+                                            <li class="list-inline-item">Backend Dev</li>
+                                            <li class="list-inline-item">2005</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="col-md-12">
+                                        <img src="./assets/img/works/portfolio-2.svg" class="card-img-top" alt="Tonic">
+                                    </div>
+                                    <div class="row">
+                                        <div class="card-body col-md-8">
+                                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and
+                                                typesetting industry. Lorem Ipsum has been the industry's standard
+                                                dummy text ever since the 1500s, when an unknown printer took a galley
+                                                of
+                                                type
+                                                and scrambled it 1960s with the
+                                                releaLorem Ipsum is simply dummy text of the printing and typesetting
+                                                industry.
+                                                Lorem Ipsum has been the industry's
+                                                standard dummy text ever since the 1500s, when an unknown printer took a
+                                                galley
+                                                of type and scrambled it 1960s with the
+                                                releorem Ipsum is simply dummy text of the printing and typesetting
+                                                industry.
+                                                Lorem Ipsum han printer took a galley of
+                                                type and scrambled it 1960s with the releawn printer took a galley of
+                                                type
+                                                and
+                                                scrambled it 1960s with the releaLorem
+                                                Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Lorem
+                                                Ipsum
+                                                has been the industry's standard dummy
+                                                text ever since the 1500s, when an unknown printer took a galley of type
+                                                and
+                                                scrambled it 1960s with the relea</p>
+                                        </div>
+                                        <div class="card-body col-md-4">
+                                            <div class="mb-3">
+                                                <span class="badge rounded-pill bg-light">html</span>
+                                                <span class="badge rounded-pill bg-light">css</span>
+                                                <span class="badge rounded-pill bg-light">Javascript</span>
+                                            </div>
+                                            <div class="d-md-flex">
+                                                <a href="#" class="btn btn-outline-primary me-3 mb-3"
+                                                    data-bs-toggle="modal" data-bs-target="#staticBackdrop">See
+                                                    Live <img src="./assets/img/logos/Icon-Export.svg" width="24"
+                                                        height="24" alt="Live Demo" /></a>
+                                                <a href="#" class="btn btn-outline-primary mb-3" data-bs-toggle="modal"
+                                                    data-bs-target="#staticBackdrop">See
+                                                    Source <img src="./assets/img/logos/Icon-GitHub.png" alt="GH Source"
+                                                        width="24" height="24" /></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card d-flex flex-column flex-md-row p-3 mb-5">
+                    <div class="col-md-6">
+                        <img src="./assets/img/works/portfolio-3.svg" class="card-img-top" alt="Canopy">
+                    </div>
+                    <div class="card-body col-md-6">
+                        <h5 class="card-title">Tonic</h5>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">Canopy</li>
+                            <li class="list-inline-item">Backend Dev</li>
+                            <li class="list-inline-item">2005</li>
+                        </ul>
+                        <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups
+                            required.</p>
+                        <div class="mb-3">
+                            <span class="badge rounded-pill bg-light">html</span>
+                            <span class="badge rounded-pill bg-light">css</span>
+                            <span class="badge rounded-pill bg-light">Javascript</span>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary btn-lg" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop3">See Project</a>
+                    </div>
+                    <div class="modal fade" id="staticBackdrop3" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-xl">
+                            <div class="modal-content rounded">
+                                <div class="modal-header">
+                                    <div class="card-body col-md-6">
+                                        <div class="d-flex">
+                                            <h5 class="card-title">Tonic</h5><button type="button" class="btn-close"
+                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">Canopy</li>
+                                            <li class="list-inline-item">Backend Dev</li>
+                                            <li class="list-inline-item">2005</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="col-md-12">
+                                        <img src="./assets/img/works/portfolio-3.svg" class="card-img-top" alt="Tonic">
+                                    </div>
+                                    <div class="row">
+                                        <div class="card-body col-md-8">
+                                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and
+                                                typesetting industry. Lorem Ipsum has been the industry's standard
+                                                dummy text ever since the 1500s, when an unknown printer took a galley
+                                                of
+                                                type
+                                                and scrambled it 1960s with the
+                                                releaLorem Ipsum is simply dummy text of the printing and typesetting
+                                                industry.
+                                                Lorem Ipsum has been the industry's
+                                                standard dummy text ever since the 1500s, when an unknown printer took a
+                                                galley
+                                                of type and scrambled it 1960s with the
+                                                releorem Ipsum is simply dummy text of the printing and typesetting
+                                                industry.
+                                                Lorem Ipsum han printer took a galley of
+                                                type and scrambled it 1960s with the releawn printer took a galley of
+                                                type
+                                                and
+                                                scrambled it 1960s with the releaLorem
+                                                Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Lorem
+                                                Ipsum
+                                                has been the industry's standard dummy
+                                                text ever since the 1500s, when an unknown printer took a galley of type
+                                                and
+                                                scrambled it 1960s with the relea</p>
+                                        </div>
+                                        <div class="card-body col-md-4">
+                                            <div class="mb-3">
+                                                <span class="badge rounded-pill bg-light">html</span>
+                                                <span class="badge rounded-pill bg-light">css</span>
+                                                <span class="badge rounded-pill bg-light">Javascript</span>
+                                            </div>
+                                            <div class="d-md-flex">
+                                                <a href="#" class="btn btn-outline-primary me-3 mb-3"
+                                                    data-bs-toggle="modal" data-bs-target="#staticBackdrop">See
+                                                    Live <img src="./assets/img/logos/Icon-Export.svg" width="24"
+                                                        height="24" alt="Live Demo" /></a>
+                                                <a href="#" class="btn btn-outline-primary mb-3" data-bs-toggle="modal"
+                                                    data-bs-target="#staticBackdrop">See
+                                                    Source <img src="./assets/img/logos/Icon-GitHub.png" alt="GH Source"
+                                                        width="24" height="24" /></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card d-flex flex-column flex-md-row-reverse p-3 mb-5">
+                    <div class="col-md-6">
+                        <img src="./assets/img/works/portfolio-1.svg" class="card-img-top" alt="Tonic-2">
+                    </div>
+                    <div class="card-body col-md-6">
+                        <h5 class="card-title">Tonic</h5>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">Canopy</li>
+                            <li class="list-inline-item">Backend Dev</li>
+                            <li class="list-inline-item">2005</li>
+                        </ul>
+                        <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups
+                            required.</p>
+                        <div class="mb-3">
+                            <span class="badge rounded-pill bg-light">html</span>
+                            <span class="badge rounded-pill bg-light">css</span>
+                            <span class="badge rounded-pill bg-light">Javascript</span>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary btn-lg" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop4">See Project</a>
+                    </div>
+                    <div class="modal fade" id="staticBackdrop4" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-xl">
+                            <div class="modal-content rounded">
+                                <div class="modal-header">
+                                    <div class="card-body col-md-6">
+                                        <div class="d-flex">
+                                            <h5 class="card-title">Tonic</h5><button type="button" class="btn-close"
+                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">Canopy</li>
+                                            <li class="list-inline-item">Backend Dev</li>
+                                            <li class="list-inline-item">2005</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="col-md-12">
+                                        <img src="./assets/img/works/portfolio-4.svg" class="card-img-top" alt="Tonic">
+                                    </div>
+                                    <div class="row">
+                                        <div class="card-body col-md-8">
+                                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and
+                                                typesetting industry. Lorem Ipsum has been the industry's standard
+                                                dummy text ever since the 1500s, when an unknown printer took a galley
+                                                of
+                                                type
+                                                and scrambled it 1960s with the
+                                                releaLorem Ipsum is simply dummy text of the printing and typesetting
+                                                industry.
+                                                Lorem Ipsum has been the industry's
+                                                standard dummy text ever since the 1500s, when an unknown printer took a
+                                                galley
+                                                of type and scrambled it 1960s with the
+                                                releorem Ipsum is simply dummy text of the printing and typesetting
+                                                industry.
+                                                Lorem Ipsum han printer took a galley of
+                                                type and scrambled it 1960s with the releawn printer took a galley of
+                                                type
+                                                and
+                                                scrambled it 1960s with the releaLorem
+                                                Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Lorem
+                                                Ipsum
+                                                has been the industry's standard dummy
+                                                text ever since the 1500s, when an unknown printer took a galley of type
+                                                and
+                                                scrambled it 1960s with the relea</p>
+                                        </div>
+                                        <div class="card-body col-md-4">
+                                            <div class="mb-3">
+                                                <span class="badge rounded-pill bg-light">html</span>
+                                                <span class="badge rounded-pill bg-light">css</span>
+                                                <span class="badge rounded-pill bg-light">Javascript</span>
+                                            </div>
+                                            <div class="d-md-flex">
+                                                <a href="#" class="btn btn-outline-primary me-3 mb-3"
+                                                    data-bs-toggle="modal" data-bs-target="#staticBackdrop">See
+                                                    Live <img src="./assets/img/logos/Icon-Export.svg" width="24"
+                                                        height="24" alt="Live Demo" /></a>
+                                                <a href="#" class="btn btn-outline-primary mb-3" data-bs-toggle="modal"
+                                                    data-bs-target="#staticBackdrop">See
+                                                    Source <img src="./assets/img/logos/Icon-GitHub.png" alt="GH Source"
+                                                        width="24" height="24" /></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About myself -->
+        <section id="about-me" class="about-me bg-white py-5">
+            <div class="container-md col-xxl-8 py-5">
+                <div class="card d-flex flex-colimn flex-md-row border-0 py-5">
+                    <div class="col-md-5">
+                        <h2 class="about-me-title mb-4">About <br> myself</h2>
+                        <p class="about-me-text pe-3">Hello I'm a software developer! I can help you build a product ,
+                            feature or
+                            website Look through some of my work and experience! If you like what you see and have a
+                            project
+                            you need coded, don't hestiate to contact me.</p>
+                        <h3 class="lets-connect mb-4">LET'S CONNECT</h3>
+                        <ul class="d-grid gap-2 d-flex justify-content-start list-inline mb-4">
+                            <li class="list-inline-item"><a href="#"><img src="./assets/img/logos/twitter.png"
+                                        alt="twitter" /></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="./assets/img/logos/linkedin.png"
+                                        alt="linkedin" /></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="./assets/img/logos/medium.png"
+                                        alt="Medium" /></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="./assets/img/logos/github.png"
+                                        alt="Github" /></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="./assets/img/logos/angies.png"
+                                        alt="Angies" /></a></li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-primary btn-lg">Get Resume</a>
+                    </div>
+                    <div class="card-body languages col-md-7">
+                        <h4 class="d-flex card-title mb-4">Languages <span class="ms-auto"><img
+                                    src="./assets/img/logos/arrow-down.png" alt="more" /></span></h4>
+                        <ul class="row list-inline flex-column flex-md-row">
+                            <li class="list-inline-item col bg-light p-3 me-3 d-md-flex flex-md-column rounded">
+                                <img class="border border-1 border-white rounded-circle me-3"
+                                    src="./assets/img/logos/js.svg" alt="#"><span class="mt-md-5">Javascript</span>
+                            </li>
+                            <li
+                                class="list-inline-item col bg-light p-3 me-3 d-md-flex flex-md-column rounded my-3 my-md-0">
+                                <img class="border border-1 border-white rounded-circle me-3"
+                                    src="./assets/img/logos/html.svg" alt="#"><span class="mt-md-5">HTML</span>
+                            </li>
+                            <li class="list-inline-item col bg-light p-3 me-3 d-md-flex flex-md-column rounded">
+                                <img class="border border-1 border-white rounded-circle me-3"
+                                    src="./assets/img/logos/css.svg" alt="#"><span class="mt-md-5">CSS</span>
+                            </li>
+                        </ul>
+                        <h5
+                            class="d-flex frameworks border border-top-0 border-start-0 border-end-0 border-bottom-1 py-4">
+                            Frameworks <span class="ms-auto"><img src="./assets/img/logos/arrow-right.png"
+                                    alt="more" /></span></h5>
+                        <h5 class="d-flex skills border border-top-0 border-start-0 border-end-0 border-bottom-1 py-4">
+                            Skills <span class="ms-auto"><img src="./assets/img/logos/arrow-right.png"
+                                    alt="more" /></span></h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact-me" class="bg-white pt-4">
+            <div class="contact-background pt-4 pb-5">
+                <div class="background">
+                    <div class="container d-flex flex-column align-items-center justify-content-center">
+                        <h2 class="contact-title mt-5">Contact me</h2>
+                        <div class="contact-text col-md-6">
+                            <p>If you have an application you are interested in developing, a feature that you need
+                                built or a
+                                project that needs
+                                coding. I'd love to help with it</p>
+                        </div>
+                        <div>
+                            <form action="https://formspree.io/f/moqzvdbe" method="POST">
+                                <div class="form-group mt-5">
+                                    <label for="name">
+                                        <input id="name" class="form-control" name="name" type="text"
+                                            placeholder="Full name" minlength="3" maxlength="30" required />
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">
+                                        <input id="email" class="form-control" name="email" type="text"
+                                            placeholder="Enter the email" minlength="3" maxlength="30" required />
+                                    </label>
+                                </div>
+                                <div class="form-group mb-2">
+                                    <label for="message">
+                                        <textarea id="message" class="form-control" name="message"
+                                            placeholder="Write your message here" type="text" rows="5" maxlength="500"
+                                            required></textarea>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-outline-primary border-1">Get in touch</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

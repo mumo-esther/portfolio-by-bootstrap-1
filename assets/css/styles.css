@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  background-color: #f7f7f9;
+  font-family: Poppins, sans-serif;
+}
+
+.navbar {
+  height: 80px;
+  background: white;
+  padding: 1rem 0;
+}
+
+.navbar-light .navbar-brand {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+}
+
+.navbar-light .nav-item .nav-link {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+}
+
+.portfolio-background h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.37px;
+  color: #091e42;
+}
+
+.portfolio-background p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #344563;
+}
+
+.portfolio-background h2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.portfolio-background {
+  background-image: url("/assets/img/backgrounds/header-bg.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
+  height: calc(100vh - 80px);
+  border-bottom-left-radius: 100px;
+}
+
+.card {
+  border: 1px solid #dfe1e6;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.card-body h5.card-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.card-body ul li {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #6b778c;
+}
+
+.card-body ul li:first-child {
+  font-weight: 500;
+  color: #344563;
+}
+
+.card-body p.card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.card-body span.badge {
+  font-weight: 500;
+  font-size: 12px;
+  padding: 0.5rem 1rem;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+.contact-background {
+  background-color: #6070ff;
+  border-top-left-radius: 100px;
+}
+
+.background {
+  background-image: url("/assets/img/backgrounds/contact-form-bg.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+}
+
+.contact-title {
+  font-weight: bolder;
+  color: #fff;
+  font-size: 40px;
+}
+
+.contact-text p {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 400px;
+  padding: 1rem;
+  color: #172b4d;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  outline: none;
+}
+
+.form-group button {
+  height: 3rem;
+  border: none;
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background-color: #fff;
+  letter-spacing: 0.03em;
+}
+
+.about-me {
+  border-top-right-radius: 120px;
+}
+
+.about-me .about-me-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #091e42;
+}
+
+.about-me .about-me-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.about-me .lets-connect {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.about-me .languages li img {
+  width: 48px;
+  height: 48px;
+}
+
+.about-me .languages h5 {
+  border-color: #dfe1e6;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio-background {
+    background-image: url("/assets/img/backgrounds/header-shapes.svg");
+  }
+
+  .background {
+    background-image: url("/assets/img/backgrounds/contact-form.svg");
+    background-position: top right;
+  }
+}
